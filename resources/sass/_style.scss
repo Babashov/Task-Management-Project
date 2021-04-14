@@ -1,0 +1,119 @@
+body{
+    margin:0;
+    padding:0;
+    /* overflow:hidden; */
+}
+header{
+    background-color: #e7effd;
+}
+.controlPage i{
+    color: grey;
+}
+.controlLeft{
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+.controlRight{
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+}
+.rightDetail .photo{
+    display: inline-block;
+    height: 30px;
+    background: #2c64f5;
+    width: 30px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 50%;
+}
+.taskBoardHeader{
+    font-size: 25px;
+    font-weight: bold;
+    color: #7d6e6e;
+}
+/* tasks */
+.taskBoard{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-height: 100%;
+    height: 520px;
+    padding: 10px 25px;
+    background-color: #f1f3f8;
+    border-radius:5px;
+}
+.taskListHeader{
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.taskListHeader li{
+    display: inline-block;
+}
+.taskListHeader .taskListName{
+    font-weight: bold;
+    font-size: 15px;
+    color: #7a7e94;
+}
+.listItemCount{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    padding-top: 3px;
+    border-radius: 50%;
+    background-color: #c5d5f7;
+}
+.taskListHeader .addNewTask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5f8ff5;
+    background-color: #c5d5f7;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+/*Task Self*/
+.taskList{
+    height: 100%;
+    overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+.taskList::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 20px;
+}
+
+.taskList::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 10px;
+}
+   
+.taskList::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 50px;
+    width: 5px;
+}
+
+.taskList::-webkit-scrollbar:hover{
+    width: 30px !important;
+}
+
+.taskItem{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 17px;
+}
+.taskItemHeader{
+    font-weight: bold;
+}
+.taskItemContent{
+    color:#aaacb7;
+}
